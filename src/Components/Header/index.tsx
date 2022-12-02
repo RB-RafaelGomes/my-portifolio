@@ -1,19 +1,21 @@
-import React from "react";
-import menupng from '../../public/icons8-menu-arredondado-100.png'
-import './style.css'
+import menupng from "../../public/icons8-menu-arredondado-100.png";
+// import './style.css'
+import { MinhaTagA, MyContainer, MyImg } from "./style.Header";
 
 export default function Header() {
   return (
-    <div className="Header">
+    <MyContainer>
       <div>
-        <a href="/">Pt-br</a>
+        <MinhaTagA href="/">contato</MinhaTagA>
       </div>
       <div>
-        <a href="/">contato</a>
+        <MinhaTagA href="/">Pt-br</MinhaTagA>
       </div>
       <div>
-        <a href="/"><img className="btn" src={menupng} alt=""></img></a>
+        <a href="/">
+          <MyImg src={menupng} alt=""></MyImg>
+        </a>
       </div>
-    </div>
+    </MyContainer>
   );
 }
