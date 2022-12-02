@@ -1,5 +1,4 @@
 import menupng from "../../public/icons8-menu-arredondado-100.png";
-// import './style.css'
 import { MinhaTagA, MyContainer, MyImg } from "./style.Header";
 
 export default function Header() {
