@@ -15,3 +15,43 @@ export const MyHeroText = styled.h1`
   text-transform: uppercase;
   color: #000000;
 `;
+
+export const MyEllipse = styled.div`
+  box-sizing: border-box;
+  position: absolute;
+  width: 508.26px;
+  height: 176.84px;
+  left: 120px;
+  top: 550px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  transform: matrix(0.97, 0.21, -0.24, 0.98, 0, 0);
+`;
+
+export const MySecondEllipse = styled.div`
+  box-sizing: border-box;
+  position: absolute;
+  width: 509.96px;
+  height: 176.16px;
+  left: 112.73px;
+  top: 550.18px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+`;
+
+export const MyPAboutMe = styled.h2`
+  position: absolute;
+  width: 288px;
+  height: 150px;
+  left: 229px;
+  top: 550px;
+
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+`;

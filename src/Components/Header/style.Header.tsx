@@ -16,5 +16,5 @@ export const MinhaTagA = styled.a`
 export const MyImg = styled.img`
   width: 40px;
   height: 40px;
-  margin-top: 30%
+  margin-top: 30%;
 `;
