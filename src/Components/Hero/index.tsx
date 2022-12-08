@@ -4,6 +4,8 @@ import {
   MyHeroText,
   MyPAboutMe,
   MySecondEllipse,
+  MyblurdEllipse,
+  MySecondBlurdEllipse,
 } from "./style.Hero";
 
 export default function index() {
@@ -14,6 +16,8 @@ export default function index() {
         <MyEllipse />
         <MySecondEllipse />
         <MyPAboutMe>Rafael Gomes Desenvolvedor Full Stack</MyPAboutMe>
+        <MyblurdEllipse />
+        <MySecondBlurdEllipse />
       </MyHero>
     </div>
   );

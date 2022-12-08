@@ -4,6 +4,10 @@ export const MyHero = styled.section`
   margin: 5vh;
 `;
 
+export const blurContainer = styled.div`
+  
+`;
+
 export const MyHeroText = styled.h1`
   width: 800px;
   height: 389px;
@@ -44,7 +48,7 @@ export const MyPAboutMe = styled.h2`
   width: 288px;
   height: 150px;
   left: 229px;
-  top: 550px;
+  top: 545px;
 
   font-family: "Big Shoulders Display";
   font-style: normal;
@@ -54,4 +58,26 @@ export const MyPAboutMe = styled.h2`
   text-align: center;
 
   color: #000000;
+`;
+
+export const MyblurdEllipse = styled.div`
+position: absolute;
+width: 334px;
+height: 327px;
+right: 8%;
+top: 40%;
+
+background: #F3994C;
+opacity: 0.75;
+filter: blur(77px);
+`;
+export const MySecondBlurdEllipse = styled.div`
+position: absolute;
+width: 328px;
+height: 302px;
+right: 15%;
+top: 40%;
+
+background: rgba(228, 47, 47, 0.75);
+filter: blur(76px);
 `;
